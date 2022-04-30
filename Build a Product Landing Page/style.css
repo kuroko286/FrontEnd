@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+}
+
+.logo {
+    width: 60vw;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 35vw;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    font-size: large;
+    font-weight: 300;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.hero {
+    width: 100%;
+    padding: 40px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: orange;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.grid {
+    display: flex;
+}
+
+.grid .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}
+
+i {
+    transform: scale(3);
+    color: orange;
+}
+
+.grid .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(100%/3);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 2px;
+}
+
+.product ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+.level {
+    text-align: center;
+    width: 100%;
+    background-color: #eee;
+}
+
+.level h2 {
+    margin-top: 10px;
+}
+
+.button {
+    margin: 15px;
+}
+
+footer {
+    display: flex;
+    background-color: #eee;
+    justify-content: end;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    line-height: 25px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 20%;
+}
+
+.btn,
+.button {
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.btn:hover,
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(196, 127, 0);
+}
